@@ -1,7 +1,7 @@
 # Quarto Codespaces
 
-[![Dev Container Docker Image Build](https://github.com/mcanouil/quarto-codespaces/actions/workflows/devcontainer.yml/badge.svg)](https://github.com/mcanouil/quarto-codespaces/actions/workflows/devcontainer.yml)
-[![Codespaces Prebuilds](https://github.com/mcanouil/quarto-codespaces/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg)](https://github.com/mcanouil/quarto-codespaces/actions/workflows/codespaces/create_codespaces_prebuilds)
+[![Dev Container Docker Image Build](https://github.com/amfriesz/quarto-codespaces/actions/workflows/devcontainer.yml/badge.svg)](https://github.com/amfriesz/quarto-codespaces/actions/workflows/devcontainer.yml)
+[![Codespaces Prebuilds](https://github.com/amfriesz/quarto-codespaces/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg)](https://github.com/amfriesz/quarto-codespaces/actions/workflows/codespaces/create_codespaces_prebuilds)
 
 Setup to deploy [GitHub Codespaces](https://github.com/features/codespaces) (Codespaces) or [Development Containers](https://containers.dev/) (Dev Containers) with [Quarto](https://quarto.org/).
 
@@ -10,7 +10,7 @@ Setup to deploy [GitHub Codespaces](https://github.com/features/codespaces) (Cod
 This repository provides a setup to deploy Codespaces or Dev Containers with Quarto, supporting R, Python, and Julia environments.
 It includes configuration files and scripts to initialise and manage these environments.
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/mcanouil/quarto-codespaces?quickstart=1&devcontainer_path=.devcontainer%2Fdevcontainer.json)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/amfriesz/quarto-codespaces?quickstart=1&devcontainer_path=.devcontainer%2Fdevcontainer.json)
 
 ## Using as a Template
 
@@ -51,7 +51,7 @@ The Dev Container configuration is used to build a Docker image that is availabl
 You can pull the latest image using the following command:
 
 ```sh
-docker pull ghcr.io/mcanouil/quarto-codespaces:latest
+docker pull ghcr.io/amfriesz/quarto-codespaces:latest
 ```
 
 ## Initialisation Script
